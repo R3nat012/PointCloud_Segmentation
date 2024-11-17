@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>pcl_segmentation</name>
+  <version>1.0.0</version>
+  <description>The pcl_segmentation package</description>
+
+  <maintainer email="renatodazs3@gmail.com">Renato Diaz</maintainer>
+
+  <license>MIT</license>
+
+  <author email="renatodazs3@gmail.com">Renato Diaz</author> 
+
+  <buildtool_depend>catkin</buildtool_depend>
+  
+  <build_depend>image_transport</build_depend>
+  <build_depend>message_filters</build_depend>
+  <build_depend>message_generation</build_depend>
+  <build_depend>rospy</build_depend>
+  <build_depend>std_msgs</build_depend>
+
+  <build_export_depend>image_transport</build_export_depend>
+  <build_export_depend>message_filters</build_export_depend>
+  <build_export_depend>sensor_msgs</build_export_depend>
+  <build_export_depend>std_msgs</build_export_depend>
+  
+  <exec_depend>message_runtime</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  <exec_depend>message_filters</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+
+  <export>
+    <!-- Other tools can request additional information be placed here -->
+
+  </export>
+</package>
